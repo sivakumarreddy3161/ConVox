@@ -1,0 +1,47 @@
+.card_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  /* background-color: #d0dcdc; */
+  color: black;
+  width: 90%;
+}
+.report_title {
+  font-size: 18px;
+  /* text-align: center; */
+}
+.records_count {
+  color: blue;
+  font-size: 12px;
+  margin: auto;
+}
+.my_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table_aligmnt {
+  overflow: scroll;
+}
+th {
+  background: #028478;
+  font-size: 14px;
+  color: white;
+  border: 1px solid #000;
+}
+
+td {
+  border: 1px solid #000;
+  padding: 8px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
